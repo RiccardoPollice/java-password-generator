@@ -9,7 +9,7 @@ public class PasswordGenerator {
         int month = 3;
         int day = 5;
         int sum = yearOfBirth + month + day;
-        String password = name + " - " + surname + " - " + favoriteColor + " - " + sum;
+        String password = name + "-"+ surname + "-"+ favoriteColor + "-"+ sum;
         System.out.println(password);
 
 
